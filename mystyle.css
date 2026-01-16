@@ -1,0 +1,6 @@
+.text-center {
+  display: flex;
+  align-items: center; /* Centers children vertically */
+  justify-content: center; /* Centers children horizontally */
+  height: 100vh; /* Example: Full viewport height */
+}
