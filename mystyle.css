@@ -1,6 +1,32 @@
+.background {
+  background-color: #191D24
+  
+
+}
+.button {
+  background-color: #616283;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+h2 {
+  color:white
+}
+
+h1, h2, h3, body, b, p {
+  color:white
+}
 .text-center {
   display: flex;
   align-items: center; /* Centers children vertically */
   justify-content: center; /* Centers children horizontally */
   height: 100vh; /* Example: Full viewport height */
 }
+
+
