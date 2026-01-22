@@ -28,4 +28,14 @@ h1, h2, h3, body, b, p {
   height: 100vh; /* Example: Full viewport height */
 }
 
+.grow img {
+    transition: transform 0.3s ease-in-out; 
+}
 
+.grow:hover img {
+    transform: scale(1.05); 
+}
+
+.img-thumbnail {
+  background-color: transparent;
+}
