@@ -4,7 +4,7 @@
 
 }
 .button {
-  background-color: #616283;
+  background-color: #374A67;
   color: white;
   padding: 10px 40px;
   text-align: center;
@@ -15,10 +15,13 @@
   cursor: pointer;
 }
 
+body {
+  color: white;
+  
+}
 
-
-h1, h2, h3, body, b, p {
-  color:white;
+h1, h2, h3 {
+  color: #CB9CF2;
 }
 
 .center-center {
@@ -38,4 +41,12 @@ h1, h2, h3, body, b, p {
 
 .img-thumbnail {
   background-color: transparent;
+}
+
+.navbar {
+  background-color: #374A67; /* Example: Dark gray background */    
+}
+
+.navbar .nav-link {
+  color:#CB9CF2
 }
