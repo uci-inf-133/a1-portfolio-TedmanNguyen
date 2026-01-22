@@ -15,14 +15,13 @@
   cursor: pointer;
 }
 
-h2 {
-  color:white
-}
+
 
 h1, h2, h3, body, b, p {
-  color:white
+  color:white;
 }
-.text-center {
+
+.center-center {
   display: flex;
   align-items: center; /* Centers children vertically */
   justify-content: center; /* Centers children horizontally */

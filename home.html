@@ -12,86 +12,143 @@ Test
   <meta name="author" content="Tedman Nguyen">
   <meta name="description" content="Tedman Nguyen's Software Engineer Portfolio. 
   Features projects and internship experiences.">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="mystyle.css">
   <title>Tedman Nguyen | SWE</title>
 </head>
 
 <body class="background">
-  <h1><b>Tedman Nguyen</b></h1>
-  <h2>B.S. Software Engineering</h2>
-  <p>
-    <a href="#About">About</a>
-    <b>|</b>
-    <a href="#Internships">Internships</a>
-    <b>|</b>
-    <a href="#Projects">Projects</a>
-    <b>|</b>
-    <a href="#Contact">Internships</a>
-  </p>
-  <div class="container">
-    <div class="row">
-      <!--Text-->
-      <div class="col-md-6">
-        <h2 id="About"><b>About</b></h2>
+
+  <section id="name" class="name">
+    <h1 class="text-center"><b>Tedman Nguyen</b></h1>
+    <h3 class="text-center">B.S. Software Engineering</h3>
+    <p class="text-center">
+      <a href="#About">About</a><b>|</b>
+      <a href="#Internships">Internships</a><b>|</b>
+      <a href="#Projects">Projects</a><b>|</b>
+      <a href="#Contact">Contact</a>
+    </p>
+  </section>
+
+  <section id="About" class="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ">
+          <h2 id="About"><b>About</b></h2>
           <p>
             As a Software Engineering and Psychology major, I find the intersection
             between people and technology fascinating. 
             While I like to design technical 
             solutions with C++, Python, or Microsoft Power tools, I make sure to attach 
             tutorials and workflows to ensure user comprehensibility and retention. 
-            Classical music enjoyer, 90's car enthusiast, and bookworm. 
+            On my spare time, I enjoy playing piano, reading books, and working on my car.
           </p>
-      </div>
-      <!--Image-->
-      <div class="col-md-6">
-        <img src="skills.png" alt="Skills" class="img-responsive">
+        </div>
+        <div class="col-md-4">
+          <img src="skills.png" 
+          alt="Skills" 
+          class="img-thumbnail">
+        </div>
       </div>
     </div>
-  </div>
-<!--
-          <h2 id="Internships"><b>Internships</b></h2>
-          <h3>Honda - Digital Workplace</h3>
+  </section>
+
+  <section id="Internships" class="Internships">
+    <div class="container">
+      <h2 id="Internships"><b>Internships</b></h2>
+        <!--EXPERIENCE #1-->
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <h3>HONDA: Digital Workplace</h3>
           <p>
             <i>Summer 2025. </i>Automated workflows with Power Automate. Crafted instructional tutorials
             for Power Platform users. Investigated Microsoft AI Sharepoint Agents. 
           </p>
-          <h3>Honda - Information Security</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="powerplatform.jpg" 
+          alt="Microsoft Power Platform tools" 
+          class="img-thumbnail">
+        </div>
+      </div>
+      <!--EXPERIENCE #2-->
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <h3> HONDA: Information Security</h3>
           <p>
             <i>Spring 2025. </i>Utilized SQL to complete Threat Hunts. PowerBI heatmaps.
             Jenkins to automate security scans, with provided proof of value / concept 
             documents. 
           </p>
-          <h3>Oppia - Software Engineer</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="dastscan.jpg" 
+          alt="Conduct Dast Scans via CI/CD Pipeline" 
+          class="img-thumbnail">
+        </div>
+      </div>
+      <!--EXPERIENCE #3-->
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <h3>OPPIA: Software Engineer</h3>
           <p>
             <i>Summer 2024. </i> Resolved input sanitization issue with Angular / Typescript for Oppia.org.
             Presented at CTI Ignite to prospective computer science students.
           </p>
+        </div>
+        <div class="col-md-6">
+          <img src="oppia.png" 
+          alt="Oppia Website a learning platform for underserved communities" 
+          class="img-thumbnail">
+        </div>
 
-          <h2 id="Projects"><b>Projects</b></h2>
-          <h3>Homelab - Ubuntu Server</h3>
+      </div>
+    </div>
+  </section> 
+
+  <section id="Projects" class="Projects">
+    <div class="container">
+      <div class="row mb-4">
+        <h2><b>Projects</b></h2>
+        <!--PROJECT #1-->
+        <div class="col-md-6">
+          <h3>Homelab</h3>
           <p>
             <i>Summer 2025 - Present. </i> Media Library and Personal Cloud Backup. Minipc running CasaOS. 
           </p>
-          <h3>Shiny Tracker - Angular / Typescript.</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="casaos.jpg" 
+          alt="CasaOS running on a Ubuntu Server" 
+          class="img-thumbnail">
+        </div>
+      </div>
+      <div class="row mb-4">
+        <!--PROJECT #2-->
+        <div class="col-md-6">
+          <h3>Shiny Tracker</h3>
           <p>
             <i>Summer 2024. </i>For Pokemon players. By Pokemon Players. Catch Shiny Pokemon and track your hunts.
           </p>
+        </div>
+        <div class="col-md-6">
+          <img src="shinytracker.png" 
+          alt="Shinytracker Application" 
+          class="img-thumbnail">
+        </div>
       </div>
     </div>
-  </div>
--->
-  
-  <h2 id="Contact"><b>Contact</b></h2>
-  <p>
-    <a href="https://www.linkedin.com/in/tedman-nguyen/">
-       LinkedIn
-    </a>
-  </p>
+  </section>
+
+    
+    <h2 id="Contact"><b>Contact</b></h2>
+    <p>
+      <a href="https://www.linkedin.com/in/tedman-nguyen/">
+        LinkedIn
+      </a>
+    </p>
 
 </body>
 
